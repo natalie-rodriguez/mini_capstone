@@ -1,0 +1,9 @@
+show.json.jb
+
+{
+name: @product.name,
+price: @product.price, 
+description: @product.description, 
+image_url: product.image_url
+
+}

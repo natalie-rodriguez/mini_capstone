@@ -1,2 +1,6 @@
 class Api::ProductsController < ApplicationController
-end
+  def show 
+    @product = product.first
+    render {'show.json.jb'}
+  end
+end 
